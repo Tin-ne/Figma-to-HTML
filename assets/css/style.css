@@ -40,6 +40,13 @@ a {
 .btn:hover {
   opacity: 0.8;
 }
+.heading-lv2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 1.27;
+  letter-spacing: -2%;
+}
 /*============================header======================*/
 .header {
   background: #d2bf8a;
@@ -232,4 +239,42 @@ a {
 }
 .hero .stats {
   margin-top: 8px;
+}
+
+/* =====================popular======================= */
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+.pupolar-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+.pupolar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pupolar-top .controls {
+  display: flex;
+  gap: 18px;
+}
+.pupolar-top .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--primary0color);
+  border: 1px solid var(--primary0color);
+}
+.pupolar-top .control-btn:hover {
+  background-color: var(--primary0color);
+  color: #fff;
+  cursor: pointer;
 }
